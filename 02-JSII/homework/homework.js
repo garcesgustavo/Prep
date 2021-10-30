@@ -3,21 +3,30 @@
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
-
+for (let i = 0; i < array.length; i++) {
+  last = array[i];
+  
+}
+return last;
 }
 
 function incrementarPorUno(array) {
   // "array" debe ser una arreglo de números enteros
   // Aumenta cada número por 1 y devuelve el array
   // Tu código:
-
+for (let i = 0; i < array.length; i++) {
+  array [i] = array [i] + 1;
+  
+}
+return array;
 }
 
 function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
-
+array.push(elemento);
+return array;
 }
 
 function dePalabrasAFrase(palabras) {
