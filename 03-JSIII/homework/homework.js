@@ -8,12 +8,23 @@ function crearUsuario() {
   // {{nombre}} debe ser el nombre definido en cada instancia
   // Devuelve la clase
   // Tu código:
+  var obj= {
+    usuario: 'franco',
+    nombre: 'franco',
+    email: 'franco@gmail.com',
+    password: '1243'
+  }
+  function Usuario(opciones) {
+    this.usuario = opciones.usuario;
+    
+  }
 }
 
 function agregarMetodoPrototype(ClaseInventada) {
   // Agrega un método al `prototype` de ClaseInventada
   // El método debe llamarse "saludar" y debe devolver la string "Hello World!"
   // Tu código:
+  3
 }
 
 function agregarStringInvertida() {
